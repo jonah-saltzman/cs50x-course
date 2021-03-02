@@ -1,6 +1,6 @@
 # cs50x-course
 
-A selection of programs I wrote for cs50x online course that I found most interesting/fun.
+A selection of programs I wrote for cs50x online course that I found most interesting/fun to write.
 
 tideman.c is my code for the 'feeling more comfortable' week 3 problem set 'tideman', 
 for which I wrote a c program to hold an election, given some number of candidates and voters, 
