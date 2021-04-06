@@ -18,3 +18,10 @@ table (handling collisions using linked lists), then spellchecks the content of 
 to the given dictionary. The challenge for this pset was to load the dictionary into memory and check
 the given text as quickly as possible (wall-clock time); the average performance (as time to load & check)
 of my program was within 5% of that of the cs50 staff's model program.
+
+dna.py is my code for the week 6 problem set 'dna', which takes as input a csv database of STRs used in
+forensic science to match a person's identity with a DNA sample, and a text file containing a raw DNA
+sequence. The program loads the database and sequence into memory, and for each STR given in the csv
+database, counts the number of repeats of that STR in the DNA sequence. If the number of repeats of each
+STR found in the DNA sequence matches the number of repeats for a person in the database, the DNA sequence
+is reported to match that person.
